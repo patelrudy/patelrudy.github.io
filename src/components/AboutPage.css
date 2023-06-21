@@ -1,0 +1,101 @@
+body {
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.plexus-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.about-container {
+  z-index: 10;
+  position: relative;
+  max-width: 80%;
+  margin: auto;
+  height: 100%;
+  padding: 2rem 0;
+  padding-top: 60px;
+}
+
+.about-content-effect {
+  height: 4.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content h1 {
+  font-size: clamp(2.5em, 5vw, 5em);
+  font-weight: 700;
+}
+
+.about-content-effect h2 {
+  font-size: clamp(2em, 3.5vw, 3.3em);
+  font-weight: 600;
+  color: #616161;
+  margin-bottom: 20px;
+}
+
+.personal-section {
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  margin: auto;
+  max-width: 80%;
+}
+
+.personal-section .personal-image, .personal-section .personal-info {
+  flex: 1;
+  padding: 1rem;
+}
+
+.personal-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.personal-section .personal-info {
+  font-size: clamp(1em, 2vw, 1.5em);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.github-link {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+
+  .personal-section {
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+
+  .about-container {
+    z-index: 10;
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    height: 100%;
+    padding: 2rem 0;
+    padding-top: 400px;
+  }
+}

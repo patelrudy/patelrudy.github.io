@@ -1,26 +1,26 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
-import Resume from "./components/Resume";
-import NavBar from "./components/NavBar";
-import Contact from "./components/Contact";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './components/HomePage';
+import NavBar from './components/NavBar';
+import './App.css';
+import AboutPage from './components/AboutPage';
+import ResumePage from './components/ResumePage';
+import ContactPage from './components/ContactPage';
 
 function App() {
   return (
-    // <div>
-    //   <NavBar />
-    // </div>
-    <BrowserRouter>
-    <NavBar/>
-      <Routes>
-          <Route element={<Home/>} path='/' />
-          <Route element={<About/>} path='/about' />
-          <Route element={<Resume/>} path='/resume' />
-          <Route element={<Contact/>} path='/contact' />
-          {/* <Route component={NotFound} status={404} /> */}
-      </Routes>
-    </BrowserRouter>
-  )
+    <Router>
+      <NavBar />
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/resume" element={<ResumePage />} />
+          <Route path="/contact" element={<ContactPage/>} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
 export default App;

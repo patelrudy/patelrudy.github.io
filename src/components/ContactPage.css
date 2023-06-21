@@ -1,0 +1,79 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+.plexus-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.contact-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    padding-top: 60px;
+}
+
+.contact-title h1 {
+    font-size: clamp(4em, 5vw, 5em);
+    font-weight: 700;
+}
+
+.contact-container {
+    z-index: 10;
+    position: relative;
+    width: 45%;
+    margin: auto;
+    height: 100%;
+    padding: 2rem 0;
+    padding-top: 60px;
+}
+
+.contact-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 40px; 
+}
+
+.contact-container form input, .contact-container form textarea {
+    width: 100%;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-size: 1.2em;
+    background-color: #fff;
+}
+
+.contact-container form button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        width: 95%;
+    }
+
+    .contact-container form {
+        padding: 20px;
+    }
+}

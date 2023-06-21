@@ -1,0 +1,13 @@
+.resume-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .resume-icon span {
+    margin-top: 10px;
+  }
+  
