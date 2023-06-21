@@ -3,7 +3,7 @@ import useTypewriter from 'react-typewriter-hook';
 import PlexusBackground from './PlexusBackground';
 import { Link } from 'react-router-dom';
 import './AboutPage.css';
-import personal_image from '../assets/personal_image.JPG'
+import personal_image from '../assets/personal_image.webp'
 
 const MagicOcean = [
   'Analytical', 'Creative', 'Adaptable', 'User-Focused'
