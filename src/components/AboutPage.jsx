@@ -49,13 +49,14 @@ const AboutPage = () => {
           <img src={personal_image} alt="Rudresh Patel"/>
         </div>
         <div className="personal-info">
-          <p>Hey there! I'm a recent Georgia Tech grad with a major in Computer Science,
-             where I got to explore the cool worlds of Artificial Intelligence and Devices. 
-             Now, as a software engineer, I apply my problem-solving skills to turn big,
-             messy problems into neat algorithmic solutions. When I'm not coding,
-             you'll probably find me working on a DIY project, hitting the road for a spontaneous trip,
-             or delving into some new tech gadget. Want to see what I've been up to lately?
-             Check out {''} <Link to="https://github.com/patelrudy" className="github-link"> my GitHub Page</Link> for some of my projects.</p>
+          <p> Hey there! I am a software engineer who
+              applies problem-solving skills to formalize general problem statements
+              into precise algorithmic solutions.
+              When I'm not working, you'll probably find me working on a DIY project, or hitting the road for a spontaneous trip.
+              Feel free to explore more about my work and interests here and on my
+              {''} <Link to="https://github.com/patelrudy" className="github-link"> GitHub Page</Link>.
+              I'm always open for engaging conversations and potential collaborations.
+            </p>
         </div>
       </div>
       

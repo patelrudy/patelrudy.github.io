@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
   justify-content: flex-start;
   min-height: calc(100vh - 60px);
+  font-family: 'Raleway', sans-serif; 
 }
 
 .plexus-background {
@@ -56,6 +57,7 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 2rem;
+  padding-bottom: 300px;
   margin: auto;
   max-width: 80%;
 }
@@ -73,14 +75,14 @@ body {
 
 .personal-section .personal-info {
   font-size: clamp(1em, 2vw, 1.5em);
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.5;
 }
 
 .github-link {
   color: rgb(0, 0, 0);
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {

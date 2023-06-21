@@ -7,14 +7,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.7); /* Translucent black */
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 20;
   padding: 5px;
-  transition: background-color 0.3s ease; /* Transition for smooth change */
+  transition: background-color 0.3s ease;
 }
 
 .navbar:hover {
-  background-color: #000; /* Solid black on hover */
+  background-color: #000;
 }
 
 .navbar-toggle {
