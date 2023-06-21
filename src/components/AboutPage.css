@@ -7,10 +7,11 @@ body {
 .about {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  position: relative;
-  width: 100%;
-  height: 100%;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: flex-start;
+  min-height: calc(100vh - 60px);
 }
 
 .plexus-background {
@@ -96,6 +97,6 @@ body {
     margin: auto;
     height: 100%;
     padding: 2rem 0;
-    padding-top: 400px;
+    padding-top: 75px;
   }
 }
