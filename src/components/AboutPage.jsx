@@ -3,7 +3,7 @@ import useTypewriter from 'react-typewriter-hook';
 import PlexusBackground from './PlexusBackground';
 import { Link } from 'react-router-dom';
 import './AboutPage.css';
-import personal_image from '../assets/personal_image.JPG'
+// import personal_image from '../assets/personal_image.JPG'
 
 const MagicOcean = [
   'Analytical', 'Creative', 'Adaptable', 'User-Focused'
@@ -46,7 +46,7 @@ const AboutPage = () => {
       </div>
       <div className="personal-section">
         <div className="personal-image">
-          <img src={personal_image} alt="Rudresh Patel"/>
+          {/* <img src={personal_image} alt="Rudresh Patel"/> */}
         </div>
         <div className="personal-info">
           <p>Hey there! I'm a recent Georgia Tech grad with a major in Computer Science,
