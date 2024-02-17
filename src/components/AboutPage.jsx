@@ -5,7 +5,7 @@ import './AboutPage.css';
 import personal_image from '../assets/personal_image.webp'
 
 const words = [
-  'Analytical', 'Creative', 'Adaptable', 'User-Focused'
+  'Analytical', 'Creative', 'Adaptable'
 ];
 
 const typingDelay = 100; // delay between typing each letter
