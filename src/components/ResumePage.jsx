@@ -51,7 +51,7 @@ const ResumePage = () => {
             ))}
             </div>
             <div className="resume-pdf">
-                <iframe title='google drive link' src="https://drive.google.com/file/d/1VPGJDwzrOZk5xCrYyPApC_5ywiol_bOU/preview" width="80%" height="700" allow="autoplay"></iframe>
+                <iframe title='google drive link' src="https://drive.google.com/file/d/17Upxp3jmovIcWsJnTT4hyQ9W2L4k8QrU/preview" width="80%" height="700" allow="autoplay"></iframe>
             </div>
         </div>
     </div>
