@@ -34,9 +34,9 @@ const NavBar = () => {
         <li>
           <a href="/resume">Resume</a>
         </li>
-        <li>
+        {/* <li>
           <a href="/contact">Contact</a>
-        </li>
+        </li> */}
         <li className="navbar-icons">
           <a href="https://github.com/patelrudy" target="_blank" rel="noopener noreferrer" className="navbar-icon">
             <FaGithub size={20}/>
